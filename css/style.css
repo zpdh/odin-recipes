@@ -1,0 +1,43 @@
+/* CSS styles */
+
+body {
+    background-color: #ffebcd;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+    font-size: 20px;
+}
+.title, .underline
+{
+    text-decoration: underline chocolate;
+}
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+.link {
+    color: darkslategrey;
+}
+.fancybox {
+    background-color: #fcd08b;
+    border: 10px ridge #AABA9E;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    box-sizing: border-box;
+}
+.listdesc {
+    font-size: 18px;
+    font-style: italic;
+}
+img {
+    width: 350px;
+    height: 250px;
+    border: 3px solid black;
+}
+button {
+    background-color: cornsilk;
+    color: brown;
+    font-size: 16px;
+}

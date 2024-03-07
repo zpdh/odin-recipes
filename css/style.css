@@ -1,31 +1,31 @@
 /* CSS styles */
 
 body {
-    background-color: #ffebcd;
+    background-color: #FFBF69;
     font-family: 'Times New Roman', Helvetica, sans-serif;
     font-size: 20px;
-}
-.title, .underline
-{
-    text-decoration: underline chocolate;
 }
 .title {
     font-weight: bold;
     font-size: 36px;
     text-align: center;
+    text-decoration: dotted underline chocolate;
 }
 .link {
-    color: darkslategrey;
+    margin-left: 35px;
 }
 .fancybox {
-    background-color: #fcd08b;
-    border: 10px ridge #AABA9E;
+    background-color: #FFE8D6;
+    border: 10px ridge #CB997E;
     padding: 0.5rem;
     display: flex;
     flex-direction: column;
     width: 400px;
     height: auto;
     box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 20px;
+
 }
 .listdesc {
     font-size: 18px;
@@ -37,7 +37,10 @@ img {
     border: 3px solid black;
 }
 button {
-    background-color: cornsilk;
-    color: brown;
+    background-color: #FF9F1C;
+    color: black;
     font-size: 16px;
+}
+.briefintro, .listdesc, .link {
+    color: #36393f;
 }
